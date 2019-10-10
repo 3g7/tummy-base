@@ -72,8 +72,6 @@ public class CommonUtils {
      * @param fieldName
      * @param object
      * @return
-     * @throws IllegalAccessException
-     * @throws IllegalArgumentException
      */
     public static Object getFieldValueByFieldName(String fieldName, Object object) {
         Field field = null;

@@ -100,7 +100,7 @@ public class TummyException extends RuntimeException {
      * 通过内部异常和错误信息获取一个自定义异常
      * 
      * @param innerException
-     * @param code
+     * @param errMessage
      * @return
      */
     public static TummyException getException(Exception innerException, String errMessage) {

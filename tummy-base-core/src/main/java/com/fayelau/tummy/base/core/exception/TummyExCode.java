@@ -22,7 +22,8 @@ public class TummyExCode {
     public static final Integer PARSE_ERROR = -1003;
 
     // 错误信息对应配置路径 以包路径查找
-    private static final String CONFIG_PATH = "com/fayelau/tummy/base/core/exception/ErrorMessage";
+    //private static final String CONFIG_PATH = "com/fayelau/tummy/base/core/exception/ErrorMessage";
+    private static final String CONFIG_NAME = "ErrorMessage";
 
     // 位置错误信息
     private static final String UNKNOWN_ERROR_MESSAGE = "系统未知错误";
@@ -38,7 +39,7 @@ public class TummyExCode {
      */
     public static String code2ErrorMessage(Integer code) {
         try {
-            ResourceBundle resource = ResourceBundle.getBundle(CONFIG_PATH);
+            ResourceBundle resource = ResourceBundle.getBundle(CONFIG_NAME);
             String message = resource.getString(code.toString());
             return MessageFormat.format(ERROR_MESSAGE_TEMP, code.toString(), message);
         } catch (Exception e) {
