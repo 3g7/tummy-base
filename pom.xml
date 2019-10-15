@@ -6,7 +6,7 @@
 
     <groupId>com.fayelau</groupId>
     <artifactId>tummy-base</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>tummy-base</name>
     <description>肚子平台基础模块</description>
