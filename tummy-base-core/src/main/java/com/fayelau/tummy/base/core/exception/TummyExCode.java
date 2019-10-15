@@ -12,14 +12,19 @@ import java.util.ResourceBundle;
  */
 public class TummyExCode {
 
-    // 未知错误
     public static final Integer UNKNOWN_ERROR = -9999;
-    // 参数为空
     public static final Integer PARAMETER_NULL = -1001;
-    // 参数错误
     public static final Integer PARAMETER_ERROR = -1002;
-    // 参数错误
     public static final Integer PARSE_ERROR = -1003;
+    public static final Integer OLD_DATA_NOT_FOUNT = -1004;
+    public static final Integer DATA_VERSION_ERROR = -1005;
+    public static final Integer USERNAME_OR_PASSWORD_ERROR = -1006;
+    public static final Integer DATA_NOT_ENABLE = -1007;
+    
+    public static final Integer TOKEN_EXPIRE = -1008;
+    public static final Integer TOKEN_NOT_FOUND = -1009;
+    
+    public static final Integer DATA_DOMAIN_ASPECT_ERROR = -1010;
 
     // 错误信息对应配置路径 以包路径查找
     //private static final String CONFIG_PATH = "com/fayelau/tummy/base/core/exception/ErrorMessage";
