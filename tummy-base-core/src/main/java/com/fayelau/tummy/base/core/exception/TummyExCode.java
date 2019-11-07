@@ -25,6 +25,8 @@ public class TummyExCode {
     public static final Integer TOKEN_NOT_FOUND = -1009;
     
     public static final Integer DATA_DOMAIN_ASPECT_ERROR = -1010;
+    
+    public static final Integer API_ACCESS_FAIL = -1011;
 
     // 错误信息对应配置路径 以包路径查找
     //private static final String CONFIG_PATH = "com/fayelau/tummy/base/core/exception/ErrorMessage";
